@@ -1,0 +1,53 @@
+body{
+    background: cadetblue;
+}
+
+.container {
+    text-align: center;
+    margin-top: 60px;
+    width: 30%;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 30px;
+    border: 3px solid honeydew;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+li p {
+    text-align: left;
+    border-radius: 9px;
+    border: 2px solid #00ffea;
+    height: 50px;
+    background: cadetblue;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    align-items: center;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+li p a {
+    text-decoration: none;
+    color: darkred;
+    margin-right: 10px;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
