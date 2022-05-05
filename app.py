@@ -11,7 +11,7 @@ def index():
         newTask = request.form['newTask']
         if len(newTask) > 0 and newTask not in db:
             db.append(newTask)
-    return render_template('index.html', tasks=db, title = 'ToDoList')
+    return render_template('index.html', tasks=db, title='ToDoList')
 
 
 @app.route('/delete/<task>')
